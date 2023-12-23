@@ -1,1 +1,0 @@
-/home/akira/ros2_2023/ros2_ws/src/mypkg/setup.py
