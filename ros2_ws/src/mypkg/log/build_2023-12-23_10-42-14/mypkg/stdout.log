@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing mypkg.egg-info/PKG-INFO
+writing dependency_links to mypkg.egg-info/dependency_links.txt
+writing entry points to mypkg.egg-info/entry_points.txt
+writing requirements to mypkg.egg-info/requires.txt
+writing top-level names to mypkg.egg-info/top_level.txt
+reading manifest file 'mypkg.egg-info/SOURCES.txt'
+writing manifest file 'mypkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/akira/ros2_2023/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/site.py
+Creating /home/akira/ros2_2023/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg.egg-link (link to .)
+Installing talker script to /home/akira/ros2_2023/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+
+Installed /home/akira/ros2_2023/ros2_ws/src/mypkg/build/mypkg
+running install_data
