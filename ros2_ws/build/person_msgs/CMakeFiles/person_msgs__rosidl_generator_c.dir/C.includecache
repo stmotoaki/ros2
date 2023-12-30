@@ -22,6 +22,22 @@ rcutils/allocator.h
 rosidl_runtime_c/string_functions.h
 /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_c/person_msgs/msg/detail/rosidl_runtime_c/string_functions.h
 
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_c/person_msgs/srv/detail/query__functions.c
+person_msgs/srv/detail/query__functions.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_c/person_msgs/srv/detail/person_msgs/srv/detail/query__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+rcutils/allocator.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_c/person_msgs/srv/detail/rcutils/allocator.h
+rosidl_runtime_c/string_functions.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_c/person_msgs/srv/detail/rosidl_runtime_c/string_functions.h
+
 /opt/ros/foxy/include/rcutils/allocator.h
 stdbool.h
 -
@@ -109,4 +125,26 @@ rosidl_runtime_c/string.h
 rosidl_generator_c/person_msgs/msg/detail/rosidl_runtime_c/string.h
 
 rosidl_generator_c/person_msgs/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/person_msgs/srv/detail/query__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/person_msgs/srv/detail/rosidl_runtime_c/visibility_control.h
+person_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/person_msgs/srv/detail/person_msgs/msg/rosidl_generator_c__visibility_control.h
+person_msgs/srv/detail/query__struct.h
+rosidl_generator_c/person_msgs/srv/detail/person_msgs/srv/detail/query__struct.h
+
+rosidl_generator_c/person_msgs/srv/detail/query__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/string.h
+rosidl_generator_c/person_msgs/srv/detail/rosidl_runtime_c/string.h
 

@@ -101,3 +101,6 @@ CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generato
  rosidl_generator_c/person_msgs/msg/detail/person__struct.h
  rosidl_generator_c/person_msgs/msg/detail/person__type_support.h
  rosidl_generator_c/person_msgs/msg/rosidl_generator_c__visibility_control.h
+ rosidl_generator_c/person_msgs/srv/detail/query__functions.h
+ rosidl_generator_c/person_msgs/srv/detail/query__struct.h
+ rosidl_generator_c/person_msgs/srv/detail/query__type_support.h

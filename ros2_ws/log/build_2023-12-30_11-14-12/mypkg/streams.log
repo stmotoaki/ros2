@@ -1,0 +1,25 @@
+[1.573s] Invoking command in '/home/akira/ros2_2023/ros2_ws/src/mypkg': PYTHONPATH=/home/akira/ros2_2023/ros2_ws/build/mypkg/prefix_override:/home/akira/ros2_2023/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/akira/ros2_2023/ros2_ws/build/mypkg/build install --record /home/akira/ros2_2023/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.862s] running egg_info
+[1.862s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.864s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.864s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.869s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.870s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.920s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.922s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.922s] running build
+[1.923s] running build_py
+[1.924s] copying mypkg/listener.py -> /home/akira/ros2_2023/ros2_ws/build/mypkg/build/lib/mypkg
+[1.925s] running install
+[1.926s] running install_lib
+[1.928s] copying /home/akira/ros2_2023/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/akira/ros2_2023/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.929s] byte-compiling /home/akira/ros2_2023/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.932s] running install_data
+[1.934s] running install_egg_info
+[1.936s] removing '/home/akira/ros2_2023/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.937s] Copying ../../build/mypkg/mypkg.egg-info to /home/akira/ros2_2023/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.939s] running install_scripts
+[1.974s] Installing listener script to /home/akira/ros2_2023/ros2_ws/install/mypkg/lib/mypkg
+[1.974s] Installing talker script to /home/akira/ros2_2023/ros2_ws/install/mypkg/lib/mypkg
+[1.975s] writing list of installed files to '/home/akira/ros2_2023/ros2_ws/build/mypkg/install.log'
+[2.270s] Invoked command in '/home/akira/ros2_2023/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/akira/ros2_2023/ros2_ws/build/mypkg/prefix_override:/home/akira/ros2_2023/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/akira/ros2_2023/ros2_ws/build/mypkg/build install --record /home/akira/ros2_2023/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

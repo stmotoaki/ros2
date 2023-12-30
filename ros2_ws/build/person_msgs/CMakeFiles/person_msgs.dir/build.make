@@ -54,6 +54,9 @@ CMAKE_BINARY_DIR = /home/akira/ros2_2023/ros2_ws/build/person_msgs
 include CMakeFiles/person_msgs.dir/progress.make
 
 CMakeFiles/person_msgs: /home/akira/ros2_2023/ros2_ws/src/person_msgs/msg/Person.msg
+CMakeFiles/person_msgs: /home/akira/ros2_2023/ros2_ws/src/person_msgs/srv/Query.srv
+CMakeFiles/person_msgs: rosidl_cmake/srv/Query_Request.msg
+CMakeFiles/person_msgs: rosidl_cmake/srv/Query_Response.msg
 
 
 person_msgs: CMakeFiles/person_msgs

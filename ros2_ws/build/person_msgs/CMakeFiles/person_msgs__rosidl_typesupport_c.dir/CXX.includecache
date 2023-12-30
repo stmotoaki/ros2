@@ -26,6 +26,30 @@ rosidl_typesupport_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/msg/rosidl_typesupport_interface/macros.h
 
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/query__type_support.cpp
+cstddef
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_runtime_c/message_type_support_struct.h
+person_msgs/msg/rosidl_typesupport_c__visibility_control.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/person_msgs/msg/rosidl_typesupport_c__visibility_control.h
+person_msgs/srv/detail/query__struct.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/person_msgs/srv/detail/query__struct.h
+rosidl_typesupport_c/identifier.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_typesupport_interface/macros.h
+rosidl_runtime_c/service_type_support_struct.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_runtime_c/service_type_support_struct.h
+rosidl_typesupport_c/service_type_support_dispatch.h
+/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_c/person_msgs/srv/rosidl_typesupport_c/service_type_support_dispatch.h
+
 /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
 /opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
@@ -39,6 +63,12 @@ stddef.h
 -
 stdint.h
 -
+
+/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/string.h
 stddef.h
@@ -55,6 +85,12 @@ rosidl_typesupport_c/visibility_control.h
 /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h
 rosidl_runtime_c/message_type_support_struct.h
 /opt/ros/foxy/include/rosidl_typesupport_c/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h
+
+/opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h
+rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_c/rosidl_runtime_c/service_type_support_struct.h
 rosidl_typesupport_c/visibility_control.h
 /opt/ros/foxy/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h
 
@@ -75,6 +111,16 @@ stdint.h
 -
 rosidl_runtime_c/string.h
 rosidl_generator_c/person_msgs/msg/detail/rosidl_runtime_c/string.h
+
+rosidl_generator_c/person_msgs/srv/detail/query__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/string.h
+rosidl_generator_c/person_msgs/srv/detail/rosidl_runtime_c/string.h
 
 rosidl_typesupport_c/person_msgs/msg/rosidl_typesupport_c__visibility_control.h
 

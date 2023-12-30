@@ -10,6 +10,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/__init__.py" "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/_person.py" "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/_person_s.c" "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/__init__.py" "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query.py" "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c" "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
