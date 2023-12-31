@@ -3,8 +3,7 @@
   "output_dir": "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs:msg/Person.idl",
-    "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs:srv/Query.idl"
+    "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs:msg/Person.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -20,7 +19,6 @@
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs/msg/Person.idl",
-    "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs/srv/Query.idl"
+    "/home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs/msg/Person.idl"
   ]
 }

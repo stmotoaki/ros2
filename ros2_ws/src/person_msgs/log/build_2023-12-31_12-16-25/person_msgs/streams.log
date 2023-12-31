@@ -1,0 +1,53 @@
+[0.206s] Invoking command in '/home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akira/ros2_2023/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs
+[0.592s] -- The C compiler identification is GNU 9.4.0
+[1.129s] -- The CXX compiler identification is GNU 9.4.0
+[1.351s] -- Check for working C compiler: /usr/bin/cc
+[1.604s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.608s] -- Detecting C compiler ABI info
+[1.833s] -- Detecting C compiler ABI info - done
+[1.856s] -- Detecting C compile features
+[1.857s] -- Detecting C compile features - done
+[1.863s] -- Check for working CXX compiler: /usr/bin/c++
+[2.134s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.136s] -- Detecting CXX compiler ABI info
+[2.396s] -- Detecting CXX compiler ABI info - done
+[2.414s] -- Detecting CXX compile features
+[2.415s] -- Detecting CXX compile features - done
+[2.422s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.469s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.761s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.890s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.896s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.896s] -- Configured cppcheck include dirs: 
+[2.896s] -- Configured cppcheck exclude dirs and/or files: 
+[2.901s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.901s] -- Configured cpplint exclude dirs and/or files: 
+[2.905s] -- Added test 'lint_cmake' to check CMake code style
+[2.910s] -- Added test 'uncrustify' to check C / C++ code style
+[2.910s] -- Configured uncrustify additional arguments: 
+[2.913s] -- Added test 'xmllint' to check XML markup files
+[2.918s] -- Configuring done
+[2.922s] -- Generating done
+[2.923s] -- Build files have been written to: /home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs
+[2.928s] Invoked command in '/home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akira/ros2_2023/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs
+[2.932s] Invoking command in '/home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs -- -j16 -l16
+[2.981s] Invoked command in '/home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs -- -j16 -l16
+[3.023s] Invoking command in '/home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --install /home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs
+[3.034s] -- Install configuration: ""
+[3.035s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs
+[3.036s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs
+[3.036s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh
+[3.037s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv
+[3.037s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/environment/path.sh
+[3.038s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/environment/path.dsv
+[3.038s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/local_setup.bash
+[3.039s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/local_setup.sh
+[3.039s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/local_setup.zsh
+[3.039s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/local_setup.dsv
+[3.039s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/package.dsv
+[3.040s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/ament_index/resource_index/packages/person_msgs
+[3.040s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake
+[3.041s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake
+[3.041s] -- Installing: /home/akira/ros2_2023/ros2_ws/src/person_msgs/install/person_msgs/share/person_msgs/package.xml
+[3.044s] Invoked command in '/home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --install /home/akira/ros2_2023/ros2_ws/src/person_msgs/build/person_msgs

@@ -64,12 +64,8 @@ rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp: /opt/ros/foxy/s
 rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em
 rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp: rosidl_adapter/person_msgs/msg/Person.idl
-rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp: rosidl_adapter/person_msgs/srv/Query.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
-
-rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp: rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp
 
 CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o: CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o: rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp
@@ -84,29 +80,14 @@ CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp -o CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.s
 
-CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o: CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/flags.make
-CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o: rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o -c /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp
-
-CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp > CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.i
-
-CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akira/ros2_2023/ros2_ws/build/person_msgs/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp -o CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.s
-
 # Object files for target person_msgs__rosidl_typesupport_cpp
 person_msgs__rosidl_typesupport_cpp_OBJECTS = \
-"CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o" \
-"CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o"
+"CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o"
 
 # External object files for target person_msgs__rosidl_typesupport_cpp
 person_msgs__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 libperson_msgs__rosidl_typesupport_cpp.so: CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o
-libperson_msgs__rosidl_typesupport_cpp.so: CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o
 libperson_msgs__rosidl_typesupport_cpp.so: CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/build.make
 libperson_msgs__rosidl_typesupport_cpp.so: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 libperson_msgs__rosidl_typesupport_cpp.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
@@ -114,7 +95,7 @@ libperson_msgs__rosidl_typesupport_cpp.so: /opt/ros/foxy/lib/librosidl_runtime_c
 libperson_msgs__rosidl_typesupport_cpp.so: /opt/ros/foxy/lib/librcpputils.so
 libperson_msgs__rosidl_typesupport_cpp.so: /opt/ros/foxy/lib/librcutils.so
 libperson_msgs__rosidl_typesupport_cpp.so: CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libperson_msgs__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libperson_msgs__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,7 +108,6 @@ CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/clean
 
 CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp
-CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp
 	cd /home/akira/ros2_2023/ros2_ws/build/person_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/akira/ros2_2023/ros2_ws/src/person_msgs /home/akira/ros2_2023/ros2_ws/src/person_msgs /home/akira/ros2_2023/ros2_ws/build/person_msgs /home/akira/ros2_2023/ros2_ws/build/person_msgs /home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/depend
 

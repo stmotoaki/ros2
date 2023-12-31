@@ -1,0 +1,35 @@
+[0.685s] Invoking command in '/home/akira/ros2_2023/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akira/ros2_2023/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akira/ros2_2023/ros2_ws/install/person_msgs
+[0.917s] -- The C compiler identification is GNU 9.4.0
+[1.282s] -- The CXX compiler identification is GNU 9.4.0
+[1.471s] -- Check for working C compiler: /usr/bin/cc
+[1.692s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.693s] -- Detecting C compiler ABI info
+[1.913s] -- Detecting C compiler ABI info - done
+[1.932s] -- Detecting C compile features
+[1.932s] -- Detecting C compile features - done
+[1.939s] -- Check for working CXX compiler: /usr/bin/c++
+[2.224s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.226s] -- Detecting CXX compiler ABI info
+[2.489s] -- Detecting CXX compiler ABI info - done
+[2.507s] -- Detecting CXX compile features
+[2.508s] -- Detecting CXX compile features - done
+[2.511s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.544s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.789s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.816s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.023s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.064s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.815s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[10.815s]   rosidl_generate_interfaces() the passed file 'msg/Person.msg' doesn't exist
+[10.815s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[10.815s]   '/home/akira/ros2_2023/ros2_ws/src/person_msgs'
+[10.816s] Call Stack (most recent call first):
+[10.816s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[10.816s] 
+[10.816s] 
+[10.816s] -- Configuring incomplete, errors occurred!
+[10.816s] See also "/home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[10.825s] Invoked command in '/home/akira/ros2_2023/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akira/ros2_2023/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akira/ros2_2023/ros2_ws/install/person_msgs
