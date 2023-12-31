@@ -1,0 +1,18 @@
+[0.725s] Invoking command in '/home/akira/ros2_2023/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akira/ros2_2023/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akira/ros2_2023/ros2_ws/install/person_msgs
+[0.746s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.779s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.040s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.044s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.049s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.926s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[8.926s]   rosidl_generate_interfaces() the passed file 'msg/Person.msg' doesn't exist
+[8.926s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[8.927s]   '/home/akira/ros2_2023/ros2_ws/src/person_msgs'
+[8.927s] Call Stack (most recent call first):
+[8.927s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[8.927s] 
+[8.927s] 
+[8.927s] -- Configuring incomplete, errors occurred!
+[8.928s] See also "/home/akira/ros2_2023/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[8.937s] Invoked command in '/home/akira/ros2_2023/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akira/ros2_2023/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akira/ros2_2023/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akira/ros2_2023/ros2_ws/install/person_msgs
